@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index2.css">
+    <title>Document</title>
+</head>
+
+<body ondblclick="sendindirect()">
+
+    <div id="main">
+        <div class="page-1">
+            <div id="nav">
+                <div class="left">
+                    <h1>eToll</h1>
+                    <h2>How it works</h2>
+                    <h2>About Us</h2>
+                </div>
+                <div class="right">
+                    <i class="ri-global-line"></i>
+                    <h2>EN</h2>
+                    <h2>Help</h2>
+                    <!-- <div class="acc">
+                        <i class="ri-user-fill"></i>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- <div class="toll">
+            <img src="./eToll.png" alt="">
+            <div class="poll">
+                <img src="./poll.png" alt="">
+            </div>
+        </div> -->
+
+            <div class="sideImg">
+                <img src="./Screenshot 2023-10-27 215054 (1).png" alt="">
+            </div>
+
+            <div class="glassmorphism-container">
+                <div class="glassmorphism-login">
+                    <!--<h2>Login</h2>-->
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="password">
+                    <div class="buttons">
+                        <button id="SignUp">SignUp</button>
+                        <h2>OR</h2>
+                        <button id="loginButton">Login</button>
+                    </div>
+                    <div class="line"></div>
+                    <div class="via">
+                        <p>SignUp Via</p>
+                    </div>
+                    <div class="icons">
+                        
+
+                        <img onclick="tometaconnect()" src="./metamask (1).png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div hidden id="arsh">
+            <img class="l" src="" alt="">
+            <div id="cont">
+                <button class="but" onclick="tosignin()">CONNECT</button>
+                <button class="but" onclick="makeacc()">MAKE ACCOUNT</button>
+            </div>
+        </div>
+        <div id="pk" hidden>thisishidden</div>
+        <img id="re" hidden
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/2048px-MetaMask_Fox.svg.png"></img>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.8.0/ethers.umd.min.js"
+        integrity="sha512-R7ASZgpXeoiujgi/4yoTErsG7ZWVq57+vLtQmFZV1LKap0Gmgbc/QeafAmOz1n66/iKfp+w5mSKabl/6Mi6UKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.2.1/dist/web3.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="location.css">
+<title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div class="page-1">
+            <div id="nav">
+                <div class="left">
+                    <h1>eToll</h1>
+                    <h2>How it works</h2>
+                    <h2>About Us</h2>
+                </div>
+                <div class="right">
+                    <i class="ri-global-line"></i>
+                    <h2>EN</h2>
+                    <h2>Help</h2>
+                    <div class="acc">
+                        <a  href="account.html"><i class="ri-user-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="you">
+                <h3>Welcome: </h3>
+                <h2>Mr. Verma</h2>
+            </div>
+
+            <div class="full">
+                <div class="left-m">
+                    <img src="./map.png" alt="">
+                </div>
+
+                <div class="right-m">
+                    <div class="em">
+                        <a href="sos.html"><img src="./emergency.png" alt=""></a>
+                    </div>
+                    <div class="line-1">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <div class="text-bg">
+                            <p>D-Block Amity University Haryana</p>
+                        </div>
+                    </div>
+
+                    <div class="line-2">
+                        <img src="./location.png" alt="">
+                        <div class="text-bg-2">
+                            <h4 id="dis">Distance : 0  M</h4>
+                           <!-- <h5>27.8KM</h5>-->
+                        </div>
+                    </div>
+
+                    <div class="line-3">
+                        <div class="text-bg-3">
+                            <pre><button onclick="carstart()">Igniton ON</button></pre>
+                            <pre><button onclick="gaadirok()">Igniton OFF</button></pre>
+                           
+                        </div>
+
+                    </div>
+
+                    <div class="text-bg-v">
+                        <p>Toll Tax</p>
+                        <h1 id="pay">₹0.000</h1>
+                        <button onclick="trans()">Pay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.8.0/ethers.umd.min.js"
+        integrity="sha512-R7ASZgpXeoiujgi/4yoTErsG7ZWVq57+vLtQmFZV1LKap0Gmgbc/QeafAmOz1n66/iKfp+w5mSKabl/6Mi6UKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.2.1/dist/web3.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

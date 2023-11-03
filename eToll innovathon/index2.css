@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}   
+
+.page-1{
+    max-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.left{
+    display: flex;
+}
+
+.left h1{
+    margin-left: 80px;
+    margin-right: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left h2{
+    font-size: 15px;
+    margin: 15px 35px;
+}
+
+/* change in code  */
+
+.left h2 {
+    text-decoration: none;
+}
+
+.left h2::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #c6c6c6;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    transition: 0.5s;
+}
+
+.left h2:hover::after {
+    width: 100%;
+}
+
+/* change in code  */
+
+
+.right{
+    display: flex;
+}
+
+.right i{
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.right h2{
+    margin-right: 70px;
+    font-size: 15px;
+    margin-top: 18px;
+
+}
+
+/* change in code */
+
+.right h2 {
+    text-decoration: none;
+}
+
+.right h2::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #c6c6c6;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    transition: 0.5s;
+}
+
+.right h2:hover::after {
+    width: 100%;
+}
+
+/* change in code */
+
+
+/* .acc{
+    margin-right: 70px;
+    margin-top: 12px;
+} */
+
+.sideImg img{
+    height: 550px;
+    margin-top: 22vh;
+    margin-left: 10vw;
+    margin-right: 14vw;
+}
+/* 
+.toll img{
+    height: 500px;
+    margin-top: 160px;
+}
+
+.poll img{
+    margin-top: -630px;
+    margin-left: -35px;
+    position: fixed;
+    transform-origin: top cent;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+
+
+.glassmorphism-container {
+    /* scale: 0; */
+    float: right;
+    margin-top: 190px;
+    margin-right:60px ;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 26vw;
+}
+
+.glassmorphism-login {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.buttons h2{
+    font-size: 15px;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 20px;
+    background: white;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+.line{
+    height: .5vh;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(64, 64, 64);
+}
+
+.via p{
+    color: white;
+    margin: 2px;
+
+}
+
+.icons{
+    display: flex;
+    color: white;
+    font-size: 55px;
+    margin-left: 88px;
+
+}
+
+.icons img{
+    height: 50px;
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 45px;
+}
+
+.icons-g img{
+    height: 50px;
+    color: white;
+}
+
+.icons img:hover{
+    scale: 1.05;
+}
+
+
+#arsh{
+    background-color: rgba(12, 12, 12, 0.95);
+    height: 500px;
+    width: 650px;
+    position:absolute;
+    top:130px;
+    left:410px;
+    border-radius: 10px;
+}
+
+#cont{
+    position:relative;
+    left:14%;
+    top:43%
+}
+
+.but{
+    height: 70px;
+    background-color: rgba(196, 193, 193, 0.534);
+}
+
+#pk{
+    position:absolute;
+    top:470px;
+    left:440px;
+    color: beige;
+}
+
+#re{
+    height: 20%;
+    position:absolute;
+    left:43.25%;
+    top:28%;
+}
